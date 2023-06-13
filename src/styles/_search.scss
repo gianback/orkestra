@@ -1,0 +1,29 @@
+.Search{
+    margin-top: 23px;
+    background-color:#E3E9EE ;
+    transition: all 0.75s ease;
+    &.scroll{
+        transform: translateY(-100%);
+    }
+    &-container{
+        padding: 14px 12px;
+        background: #FFFFFF;
+        border: 1.5px solid #95A5A6;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input{
+            margin-left:11px;
+            font-size: 20px;
+            color: #95A5A6;
+            border: none;
+            outline: none;
+            &::placeholder{
+                color: #95A5A6;
+
+            }
+        }
+    }
+}

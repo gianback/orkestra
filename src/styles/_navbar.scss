@@ -1,0 +1,23 @@
+.Navbar{
+    height: 100%;
+    &-list{
+        display: flex;
+        height: inherit;
+    }
+      &-icon{
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid #000;
+        &:first-child{
+            border-left: none;
+        }
+        &:nth-child(2){
+            border-left:1px solid #D6DFE4
+        }
+        &.logo{
+            border-right: 1px solid white;
+        }
+    }
+}

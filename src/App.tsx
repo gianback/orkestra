@@ -1,35 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useRef } from "react";
+import { Search } from "./components/molecules";
+import { Header } from "./components/ui";
+import { getProducts } from "./services/getProducts";
+import { handleScroll } from "./utils/scroll";
 
-function App() {
-  const [count, setCount] = useState(0)
+export function App() {
+  const prevScrollPosition = useRef(0);
+
+  // useEffect(() => {
+  //   getProducts();
+  // }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => handleScroll(prevScrollPosition));
+    return () => {
+      window.removeEventListener("scroll", () =>
+        handleScroll(prevScrollPosition)
+      );
+    };
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <main className="App">
+      <div className="App-container">
+        <Header />
+        <Search />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </main>
+  );
 }
-
-export default App
