@@ -1,0 +1,73 @@
+[
+    {
+      "name": "iPhone 12",
+      "price": 999.99,
+      "description": "El iPhone 12 es un smartphone de última generación con pantalla OLED y cámara dual de alta resolución.",
+      "brand": "Apple",
+      "image": "https://www.pngall.com/wp-content/uploads/5/Apple-iPhone-12-PNG.png"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "price": 899.99,
+      "description": "El Samsung Galaxy S21 es un teléfono Android con una pantalla Dynamic AMOLED y potentes capacidades de fotografía.",
+      "brand": "Samsung",
+      "image": "https://themayanagari.com/wp-content/uploads/2021/04/galaxy-s21-ultra.jpg"
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "price": 499.99,
+      "description": "La PlayStation 5 es una consola de videojuegos de última generación con gráficos de alta calidad y una amplia biblioteca de juegos.",
+      "brand": "Sony",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"
+    },
+    {
+      "name": "Canon EOS R5",
+      "price": 3799.99,
+      "description": "La Canon EOS R5 es una cámara digital mirrorless con una resolución excepcional y capacidades de grabación de video en 8K.",
+      "brand": "Canon",
+      "image": "https://i1.adis.ws/i/canon/eos-r5-c-fsl_range-page_06_306bc724fef64cc5a06bc8e97299cd91"
+    },
+    {
+      "name": "Nike Air Max 270",
+      "price": 129.99,
+      "description": "Las zapatillas Nike Air Max 270 ofrecen comodidad y estilo con una unidad de amortiguación Air Max visible en el talón.",
+      "brand": "Nike",
+      "image": "https://img1.freepng.es/20180822/rr/kisspng-nike-air-max-27-women-s-shoe-gold-sneakers-nike-air-max-27-sneaker-sneaker-sneaks-up-5b7d2ef3f098c6.7984065115349306759855.jpg"
+    },
+    {
+      "name": "MacBook Pro",
+      "price": 1999.99,
+      "description": "El MacBook Pro es un portátil potente con una pantalla Retina brillante y un rendimiento excepcional.",
+      "brand": "Apple",
+      "image": "https://w1.pngwing.com/pngs/910/654/png-transparent-laptop-macbook-apple-macbook-pro-retina-15-mid-2014-apple-macbook-pro-retina-15-mid-2015-apple-macbook-pro-15-2018-apple-macbook-air-13-mid-2017-apple-macbook-pro-13-mid.png"
+    },
+    {
+      "name": "Samsung QLED TV",
+      "price": 1499.99,
+      "description": "La Samsung QLED TV ofrece una calidad de imagen impresionante con colores vivos y un contraste mejorado.",
+      "brand": "Samsung",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/pe/qn65q60bagxpe/gallery/pe-qled-q60b-423967-qn65q60bagxpe-532403941?$650_519_PNG$"
+    },
+    {
+      "name": "Fitbit Versa 3",
+      "price": 229.99,
+      "description": "El Fitbit Versa 3 es un reloj inteligente con seguimiento de actividad física, monitorización del sueño y notificaciones inteligentes.",
+      "brand": "Fitbit",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFO7H-KStM-J99UC1RmeVSKI0dM-zw0p6aZAO4D620GFDdh36YLPyNXAkeSHLKEAd4iY4&usqp=CAU"
+    },
+    {
+      "name": "Dyson V11",
+      "price": 599.99,
+      "description": "La Dyson V11 es una aspiradora sin cable con una potente succión y una batería de larga duración.",
+      "brand": "Dyson",
+      "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/344709-01.png?$responsive$&fmt=png-alpha&cropPathE=mobile&fit=stretch,1&wid=472"
+    },
+    {
+        "name": "Fitbit Versa 2",
+        "price": 229.99,
+        "description": "El Fitbit Versa 2 es un reloj inteligente con seguimiento de actividad física, monitorización del sueño y notificaciones inteligentes.",
+        "brand": "Fitbit",
+        "image": "https://www.vhv.rs/dpng/d/475-4755400_fitbit-versa-lite-charcoal-hd-png-download.png"
+    }
+]
+  

@@ -2,9 +2,8 @@
     margin-top: 23px;
     background-color:#E3E9EE ;
     transition: all 0.75s ease;
-    &.scroll{
-        transform: translateY(-100%);
-    }
+    border-bottom: 3px solid transparent ;
+
     &-container{
         padding: 14px 12px;
         background: #FFFFFF;
@@ -13,6 +12,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        transition: border 0.5s ease;
 
         input{
             margin-left:11px;
@@ -20,10 +20,20 @@
             color: #95A5A6;
             border: none;
             outline: none;
+            border-radius: 3px;
             &::placeholder{
                 color: #95A5A6;
 
             }
         }
+    }
+    &-filter{
+        display: block;
+        text-align: end;
+        margin: 10px 0 ;
+        font-weight: 500;
+        font-size: 16px;
+        color: #2780BA;
+        text-decoration-line: underline;
     }
 }

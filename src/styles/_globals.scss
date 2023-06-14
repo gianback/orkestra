@@ -15,8 +15,22 @@ button{
     background-color: #E3E9EE;
     min-height: 150vh;
     &-container{
+        background-color: #E3E9EE;
         position: sticky;
+        transition : transform 0.5s ease;
         top: 0;
+
+        &.scroll{
+            transform: translateY(-37%);
+            
+            .Search-container{
+                border: 1.5px solid #2780BA;
+            }
+            .Search{
+                border-bottom: 3px solid #2780BA ;
+            }
+        }
+
     }
 }
 .Container{
